@@ -29,6 +29,8 @@ nav ul{
     align-items: center;
 }
 
+
+
 .btn-primary{
 
     height: 64px;
@@ -46,12 +48,14 @@ nav ul{
     margin:  0 200px;
     display: flex;
     align-items: center;
+    padding-bottom: 0%;
 
 }
 
 .banner-title{
     font-weight: 700;
     font-size: 85px;
+    margin-top: 0ch;
 
 }
 
@@ -59,7 +63,7 @@ nav ul{
 
     width: 585px;
     height: 60px;
-    margin-bottom: 20px;
+   
 
 }
 
@@ -67,7 +71,7 @@ nav ul{
 
     color: #757575;
     font-size: 18px;
-    margin-bottom: 30px;
+    
 
 }
 
@@ -160,5 +164,82 @@ border-radius: 5px;
 padding: 30px;
 }
 
-/* rsume styles */
+/* resume styles */
+
+.resume-content{
+
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title{
+    color: #3f3e3e;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+    
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.resume .description{
+
+    color: #757575;
+}
+.resume-item{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-button{
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact  .section-title{
+
+    text-align: left;
+
+}
+
+.contact input[type="text"], [type="email"], textarea{
+
+    margin:  24px;
+    border: 0;
+    width: 20%;
+    padding: 18px 30px ;
+}
+
+.input{
+
+    height:64px;
+    width: 10px;
+
+}
+.form{
+
+    size: 50px;
+}
+
+.contact{
+
+    display: flex;
+}
+
+footer{
+    
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 50px;
+   
+}
+
 
